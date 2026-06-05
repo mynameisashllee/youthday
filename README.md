@@ -60,3 +60,13 @@ npm run dev
 ```
 
 Then open `http://localhost:4173`.
+
+## Host Online With GitHub Pages
+
+1. Create a GitHub repository for this folder.
+2. Push these files to the repository.
+3. In GitHub, go to `Settings -> Pages`.
+4. Set `Source` to `GitHub Actions`.
+5. Every push to `main` will publish the site.
+
+The included workflow builds `data/manifest.json` before deploying.

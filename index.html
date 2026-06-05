@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Youth Day Meeting Notes</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Youth Day notes home">
+        <span class="brand-mark">YD</span>
+        <span>
+          <strong>Youth Day</strong>
+          <small>Design meeting notes</small>
+        </span>
+      </a>
+      <nav class="team-tabs" id="teamTabs" aria-label="Teams"></nav>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar" aria-label="Meeting notes">
+        <div class="sidebar-header">
+          <h1>Meeting Notes</h1>
+          <label>
+            <span>Team</span>
+            <select id="teamSelect"></select>
+          </label>
+        </div>
+        <div id="meetingList" class="meeting-list"></div>
+      </aside>
+
+      <section class="viewer" aria-live="polite">
+        <div class="viewer-toolbar">
+          <div>
+            <p id="eyebrow" class="eyebrow">Youth Day</p>
+            <h2 id="noteTitle">Select a meeting note</h2>
+          </div>
+          <a id="copyLink" class="copy-link" href="#">Copy link</a>
+        </div>
+        <article id="noteContent" class="note-content empty-state">
+          <h3>Choose a team meeting from the list.</h3>
+          <p>Each saved Markdown note becomes a dated page you can share after the meeting.</p>
+        </article>
+      </section>
+    </main>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>

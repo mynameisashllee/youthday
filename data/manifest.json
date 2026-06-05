@@ -1,0 +1,50 @@
+{
+  "teams": [
+    {
+      "slug": "level-1",
+      "name": "Level 1"
+    },
+    {
+      "slug": "level-2",
+      "name": "Level 2"
+    },
+    {
+      "slug": "level-3",
+      "name": "Level 3"
+    },
+    {
+      "slug": "level-4",
+      "name": "Level 4"
+    }
+  ],
+  "meetings": [
+    {
+      "team": "level-1",
+      "teamName": "Level 1",
+      "date": "2026-06-08",
+      "title": "Level 1 Youth Day Design Sync",
+      "path": "content/meetings/level-1/2026-06-08.md"
+    },
+    {
+      "team": "level-2",
+      "teamName": "Level 2",
+      "date": "2026-06-09",
+      "title": "Level 2 Youth Day Design Sync",
+      "path": "content/meetings/level-2/2026-06-09.md"
+    },
+    {
+      "team": "level-3",
+      "teamName": "Level 3",
+      "date": "2026-06-10",
+      "title": "Level 3 Youth Day Design Sync",
+      "path": "content/meetings/level-3/2026-06-10.md"
+    },
+    {
+      "team": "level-4",
+      "teamName": "Level 4",
+      "date": "2026-06-11",
+      "title": "Level 4 Youth Day Design Sync",
+      "path": "content/meetings/level-4/2026-06-11.md"
+    }
+  ]
+}
